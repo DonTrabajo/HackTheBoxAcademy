@@ -123,7 +123,7 @@ portfwd add -l 3300 -p 3389 -r 172.16.5.19
 Then:
 
 ```bash
-xfreerdp /v:localhost:3300 /u:victor /p:pass@123
+xfreerdp /v:localhost:3300 /u:victor /p:REDACTED_PASSWORD
 ```
 
 ---
@@ -167,3 +167,4 @@ Execute on Windows host to receive new session.
 - Add to DonTrabajoGPT’s Post-Exploitation module
 - Include in Prox Offensive Recon Toolkit
 - Expand for multi-pivot scenarios in future R&D
+

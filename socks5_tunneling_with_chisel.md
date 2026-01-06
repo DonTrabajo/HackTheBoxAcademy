@@ -78,7 +78,7 @@ socks5 127.0.0.1 1080
 ## 💻 RDP Into Domain Controller
 
 ```bash
-proxychains xfreerdp /v:172.16.5.19 /u:victor /p:pass@123
+proxychains xfreerdp /v:172.16.5.19 /u:victor /p:REDACTED_PASSWORD
 ```
 
 Got certificate warning due to RDP host fingerprint change. Proceeded after manual acceptance:
@@ -114,3 +114,4 @@ C:\Users\victor\Documents\flag.txt
 
 **🛡️ Flag retrieved. Mission accomplished.**  
 *– Don Trabajo / Prox Offensive Recon Ops*
+

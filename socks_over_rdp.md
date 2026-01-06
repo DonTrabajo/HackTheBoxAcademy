@@ -39,9 +39,9 @@ Target Machine (172.16.6.155)
 
 | Machine       | Username     | Password               |
 |---------------|--------------|------------------------|
-| Pivot Box     | htb-student  | HTB_@cademy_stdnt!     |
-| Victor (172.16.5.19) | victor       | pass@123               |
-| Target (172.16.6.155) | jason        | WellConnected123!      |
+| Pivot Box     | htb-student  | REDACTED_PASSWORD     |
+| Victor (172.16.5.19) | victor       | REDACTED_PASSWORD               |
+| Target (172.16.6.155) | jason        | REDACTED_PASSWORD      |
 
 ---
 
@@ -49,7 +49,7 @@ Target Machine (172.16.6.155)
 
 ### 1. 🖥️ RDP into Pivot Box
 ```bash
-xfreerdp /v:10.129.42.198 /u:htb-student /p:HTB_@cademy_stdnt!
+xfreerdp /v:10.129.42.198 /u:htb-student /p:REDACTED_PASSWORD
 ```
 
 ### 2. 🔄 Transfer and Register Plugin
@@ -96,7 +96,7 @@ mstsc.exe
 ```
 - Connect to: `172.16.6.155`
 - User: `jason`
-- Password: `WellConnected123!`
+- Password: `REDACTED_PASSWORD`
 
 ✔️ You’re now RDP’d through **2 levels of pivoting** via SocksOverRDP.
 
@@ -143,3 +143,4 @@ _Add any screenshots or terminal logs here if you're sharing publicly._
 ---
 
 ✍️ _Don Trabajo strikes again with another lab cracked and documented. Respect the tunnel!_
+
